@@ -138,7 +138,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   
-  #s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/GGUMengMessage/UMessage_Sdk_1.2.6/" }
+  s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/GGHelper/" }
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
